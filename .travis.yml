@@ -1,3 +1,10 @@
 language: csharp
-# if your .sln file has a different name, change it here :)
+# if your .sln/.csproj file has a different name, change it here :)
 solution: ci-example.csproj
+
+jobs:
+  include:
+    - os: linux
+      dist: bionic
+    - os: osx
+      osx_image: xcode12
