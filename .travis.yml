@@ -9,4 +9,4 @@ jobs:
       dotnet: 3.1.302
     - os: osx
       osx_image: xcode12
-      dotnet: latest
+      dotnet: 3.1.302
