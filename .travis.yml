@@ -4,7 +4,9 @@ solution: ci-example.csproj
 
 jobs:
   include:
-    - os: linux
+    - os: linux 
       dist: bionic
+      dotnet: 3.1.302
     - os: osx
       osx_image: xcode12
+      dotnet: latest
